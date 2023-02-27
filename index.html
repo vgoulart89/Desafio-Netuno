@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icones/logo-preta.png" type="image/x-icon">
+    <title>Desafio Netuno</title>
+
+</head>
+<body>
+    <main>
+    
+        
+         <nav>
+            <img id="netunotop" src="assets/logo.png" alt="Logo Netuno">
+            <ul class="listtop">
+                <li class="listtop"><a href="#">O Projeto</a></li>
+                <li class="listtop"><a href="#">O Problema</a></li>
+                <li class="listtop"><a href="#">Sua Jornada</a></li>
+                <li class="listtop"><a href="#">Objetivos</a></li>
+            </ul>
+            <button id="buttontop">Processo Seletivo</button>
+            
+            </nav>
+       
+        
+        <div class="divform">
+            <form action="index.html" method="post">
+                <div class="divform2">
+                            <h1>Fomulário de Cadastro</h1>
+                            <p>Preencha seus dados</p>
+                            <input type="text" class="formfield" name="nome_completo" placeholder="Nome Completo*" required>
+                            <input type="email" class="formfield" name="email" placeholder="E-mail*" required>
+                            <select class="formfields" name="estado" required>
+                                <option value="" disabled selected>Estado*</option>
+                                <option value="AC">Acre (AC)</option>
+                                <option value="AL">Alagoas (AL)</option>
+                                <option value="AP">Amapá (AP)</option>
+                                <option value="AM">Amazonas (AM)</option>
+                                <option value="BA">Bahia (BA)</option>
+                                <option value="CE">Ceará (CE)</option>
+                                <option value="DF">Distrito Federal (DF)</option>
+                                <option value="ES">Espírito Santo (ES)</option>
+                                <option value="GO">Goiás (GO)</option>
+                                <option value="MA">Maranhão (MA)</option>
+                                <option value="MT">Mato Grosso (MT)</option>
+                                <option value="MS">Mato Grosso do Sul (MS)</option>
+                                <option value="MG">Minas Gerais (MG)</option>
+                                <option value="PA">Pará (PA)</option>
+                                <option value="PB">Paraíba (PB)</option>
+                                <option value="PR">Paraná (PR)</option>
+                                <option value="PE">Pernambuco (PE)</option>
+                                <option value="PI">Piauí (PI)</option>
+                                <option value="RJ">Rio de Janeiro (RJ)</option>
+                                <option value="RN">Rio Grande do Norte (RN)</option>
+                                <option value="RS">Rio Grande do Sul (RS)</option>
+                                <option value="RO">Rondônia (RO)</option>
+                                <option value="RR">Roraima (RR)</option>
+                                <option value="SC">Santa Catarina (SC)</option>
+                                <option value="SP">São Paulo (SP)</option>
+                                <option value="SE">Sergipe (SE)</option>
+                                <option value="TO">Tocantins (TO)</option>
+                            </select>
+                </div> 
+
+                <div class="select">
+                    <h1>Conhecimento de Programação</h1>
+                    <div class="selectlanguage">
+                        <input type="checkbox" name="html" value="HTML">
+                        <label>HTML</label>
+                        <input type="checkbox" name="css" value="CSS">
+                        <label class="label2" >CSS</label>
+                        <input type="checkbox" name="php" value="PHP">
+                        <label class="label3" >PHP</label>
+                        <input type="checkbox" name="javascript" value="JAVASCRIPT">
+                        <label >JavaScript</label>
+                        <br>
+                        
+                        <input type="checkbox" name=".net" value=".NET">
+                        <label class="label6" >.NET</label>
+                        <input type="checkbox" name="vue.js" value="Vue.JS">
+                        <label class="label8" >Vue.JS</label>
+                        <input type="checkbox" name="reactjs" value="ReactJS">
+                        <label >ReactJS</label>
+                        <input type="checkbox" name="react native" value="React Native">
+                        <label >React Native</label>
+                        <br>
+                        
+                        <input type="checkbox" name="node" value="Node">
+                        <label class="label5" >Node</label>
+                        <input type="checkbox" name="python" value="Python">
+                        <label class="label7">Python</label>
+                        <input type="checkbox" name="flutter" value="Flutter">
+                        <label class="label4">Flutter</label>
+                        <input type="checkbox" name="outras" value="Outras">
+                        <label>Outras</label>
+                    </div>
+                </div>
+                <div>
+                    <h1 class="trabdev">Já trabalhou com desenvolvimento?</h1>
+                    <input type="radio" name="resposta" value="nao" required>
+                    <label class="resp">Não</label>
+                    <input type="radio" name="resposta" value="sim" required>
+                    <label class="resp">Sim</label>
+                    <hr class="camposobr">
+                    <p class="campos">(*) Campos Obrigatórios</p>
+                    <input type="submit" value="Enviar">
+                    <p class="politica">Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em <a href="#">política de privacidade</a>.</p>
+                </div>
+            </form>
+        </div>
+
+        <div class="divpart2">
+            <section class="projeto tamanhoprojeto imagemprojeto">
+                <div class="divpart2texto">
+                    <h1 id="h1projeto">O Projeto</h1>
+                    <p>Com o "novo normal" causado pela pandemia dos últimos anos, mais empresas no mundo todo tem aberto oportunidades no modelo Home Office. <br>Alinhado a depreciação da moeda local, temos um altoíndice de profissionais migrando para trabalhos em outros países. <br></p>
+                    <p>O projeto Netuno, idealizado pela Fasters, tem por objetivo reduzir os estresses causados por recrutamento e turn over na área de tecnologia, bem como gerar oportunidades de carreira para novos profissionais.</p>
+                </div>
+            </section>
+        </div>
+
+        <div class="divpart3">
+            <section class="problema tamanhoproblema imagemproblema">
+                <div class="divpart3texto">
+                    <h2 id="h2problema">O Problema</h2>
+                    <p class="textoproblema1">Falta de profissionais de TI no Mercado brasileiro: um problema que demanda atenção urgente.</p>
+                    <hr>
+                    <p class="textoproblema3">Estima-se que atualmente tenhamos um déficit de 408 mil postos de trabalho, com perdas se acumulando na casa dos R$167 bilhões, de acordo com a Softex, uma organização social voltada ao fomento da área de TI.</p>
+                    <p class="textoproblema2">Um dos principais fatores desta falta de profissionais é o êxodo de profissionais para o exterior.</p>
+                </div>
+                <div class="topicos">
+                    <div class="topicos1">
+                        <h2 class="h2topicos">Oportunidade</h2>
+                        <p>Acreditamos que a combinação de interesse, dedicação e oportunidade pode causar um grande impacto nas pessoas, nas organizações e no mundo.</p>
+                    </div>
+                    <div class="topicos1">
+                        <h2>Comunidade</h2>
+                        <p>Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, flúida e eficiente.</p>
+                    </div>
+                    <div class="topicos1">
+                        <h2>Experiência Real</h2>
+                        <p>Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não pode fazer.</p>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+            
+        <div class="jornada">
+            <section>
+                <div class="jornadadiv">
+                    <img class="imgjornada" src="Elements/Vector2.png" alt="vector2">
+                    <h2>Sua Jornada</h2>
+                    <img class="img2jornada" src="Elements/Vector2.png" alt="vector2">
+
+                    <div class="topicosjornada">
+                        <div class="jornadaitens">
+                            <div class="jornadaimg">
+                                <img src="icones/calendario.png" alt="Calendario">
+                            </div>
+                            <div class="jornadatxt">
+                                <p>Programas de 4 meses de duração, sendo 6 horas/dia.</p>
+                            </div>
+                        </div>
+
+                        <div class="jornadaitens">
+                            <div class="jornadaimg">
+                                <img src="icones/medalha.png" alt="Medalha">
+                            </div>
+                            <div class="jornadatxt">
+                                <p>Do zero ao Junior
+                                <br>
+                                Promissor em 4 meses.</p>
+                            </div>
+                        </div>
+
+                        <div class="jornadaitens">
+                            <div class="jornadaimg">
+                                <img src="icones/relogio.png" alt="Relogio">
+                            </div>
+                            <div class="jornadatxt">
+                                <p>640 horas de aplicação 
+                                    <br>
+                                    prática dos conceitos.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="jornadaitens">
+                            <div class="jornadaimg">
+                                <img src="icones/home.png" alt="home">
+                            </div>
+                            <div class="jornadatxt">
+                                <p>Mentoria individual e coletiva em padrão ágil.</p>
+                            </div>
+                        </div>
+
+                        <div class="jornadaitens">
+                            <div class="jornadaimg">
+                                <img src="icones/group.png" alt="group">
+                            </div>
+                            <div class="jornadatxt">
+                                <p>100% Home Office com plataformas de cursos online.</p>
+                            </div>
+                        </div>
+
+                        <div class="jornadaitens">
+                            <div class="jornadaimg">
+                                <img src="icones/target.png" alt="target">
+                            </div>
+                            <div class="jornadatxt">
+                                <p>Variedade de áreas Dentro
+                                    <br>
+                                    da tecnologia
+                                </p>
+                            </div>
+                        </div>
+                                            
+                    </div>
+
+                        <a href="#">Quero me cadastrar para o <span> Processo Seletivo </span>
+                        <img src="icones/enter.png" alt="Enter"></a>
+                        <img class="vector" src="Elements/Vector1.png" alt="vector1">
+
+                </div>
+
+                
+            </section>
+        </div>
+
+        <div class="objetivo">
+            <div>
+                <h2>Objetivos</h2>
+            </div>
+
+            <div class="objetivodiv">           
+                <div class="objetivodivs">
+                    <h3>Otimizar</h3>
+                    <p>Otimizar todo processo de contratação chegando a contribuir com uma economia de 40%no processo de recrutamento.</p>
+                </div>
+
+                <div class="objetivodivs">
+                    <h3>Gerar</h3>
+                    <p>Gerar novas oportunidades de carreira para pessoas interessadas em ingressar na área ou migrar de outras áreas que esteja descontente.</p>
+                </div>
+
+                <div class="objetivodivs">
+                    <h3>Filtrar</h3>
+                    <p>Criar oportunidades brilhantes para profissionais que se destacarem junto a parceiros estratégicos de negócios.</p>
+                </div>
+
+            </div> 
+            
+        </div>
+
+        <div>
+            <footer>
+                <div class="footer">
+                    <div class="footerdiv">
+                        <img class="slogan" src="assets/logo+slogan.png" alt="Logo">
+                        <ul class="iconsfooter">
+                            <li><a href="https://www.facebook.com/fastersbr" target="_blank"><img src="icones/fb.png" alt="Facebook"></a></li>
+                            <li><a href="https://www.instagram.com/fastersbr/" target="_blank"><img src="icones/ig.png" alt="Instagram"></a></li>
+                            <li><a href="https://www.linkedin.com/company/fastersbr/" target="_blank"><img src="icones/in.png" alt="Linkedin"></a></li>
+                        </ul>
+                        <p class="txtfooter">Netuno© 2022 - Todos os direitos reservados</p>
+                    </div>
+
+                    <div class="botao">
+                        <button>Processo Seletivo</button>
+                    </div>
+
+                    <div>
+                        <ul class="listfooter">
+                            <li><a href="#">O Projeto</a></li>
+                            <li><a href="#">O Problema</a></li>
+                            <li><a href="#">Sua Jornada</a></li>
+                            <li><a href="#">Objetivos</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="divcontato">
+                        <p>Contato</p>
+                        <a href="tel:+5511912345678">11 91234 5678</a><br>
+
+                        <a href="mailto: contato@netuno.com.br">contato@netuno.com.br</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+</main>
+    
+</body>
+</html>
